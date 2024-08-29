@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #1b6832;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para o formulário de login */
+form {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+form label span {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"]{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004494;
+}
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    color:black;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+#container{
+
+    width:80%;
+    margin: 0 auto;
+    padding:1%;
+    
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+#fix{
+    clear:both;
+    float: none;
+}
+.menu{
+    line-height: 10px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.food-search{
+    padding: 7% 0 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #AFC97E;
+}
+.food-search input[type=search]{
+    width: 80%;
+    padding: 1%;
+    font-size: 1rem;
+    border: 50px;
+    border-radius: 7px;
+
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+.btn-primary{
+    background-color: #86aa42;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.btn-primary:hover{
+    background-color: #D4E6B5;
+    color: #AFC97E;
+}
+.food-menu-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+
+
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: gray;
+}
+.form-container form{
+    border: var(--border);
+    padding:2rem;
+    border:var(--border);
+    text-align: center;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+.form-container form .box{
+    width: 100%;
+    margin:1rem 0;
+    font-size: 1.8rem;
+    color:black;
+    padding:1.4rem;
+   
+
+}
+.form-container form h3{
+    font-size: 2.5rem;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+}
+.form-container form p{
+    margin-top:2rem ;
+    font-size: 2rem;
+
+}
+#footer .text-right{
+    background-color: #86aa42;
+    
+}
+
+#login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-login{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    
+}
+#card-login > h1 {
+    color: #AFC97E;
+    font-weight: 800;
+    margin: 0;
+}
+
+#textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+#textfield >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: aliceblue;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+#textfield >label{
+    color: aliceblue;
+}
+#textfield >input::placeholder{
+    color: aliceblue;
+}
+
+#btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #AFC97E;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #AFC97E;
+
+}
+
+#content {
+    display: block;
+    /* justify-content: center; */
+    /*align-items: center;*/
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+div#card {
+    background: #fff;
+    box-shadow: 0px 2px 18px #3e404773;
+    border-radius: 20px;
+}
+
+
+div#topcard {
+    padding: 20px;
+}
+div#topcard {
+    padding: 20px;
+}
+
+h2#title {
+    color: #35814a;
+}
+span#secondtext {
+    color: #656565c4;
+}
+span#text {
+    color: #3e4047;
+}
+div#bottomcard {
+    padding: 20px;
+}
+
+h5 {
+    color: #656565;
+    font-size: smaller;
+}
+
+textarea#text {
+    border-radius: 5px;
+    outline-color: #35814a;
+    resize: none;
+    width: 95%;
+    color: #3e4047;
+}
